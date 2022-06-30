@@ -5,14 +5,13 @@ programa
 	{
 		inteiro ano, mes, dia, dias
 
-		escreva("Quantos anos você tem?")
+		escreva("Quantos anos você tem? ")
 		leia(ano)
-		escreva("Quantos meses você tem?")
+		escreva("Quantos meses você tem? ")
 		leia(mes)
-		escreva("Quantos dias você tem?")
+		escreva("Quantos dias você tem? ")
 		leia(dia)
 
-		dia = dia * 1
 		mes = mes * 30
 		ano = ano * 365
 
@@ -26,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 164; 
+ * @POSICAO-CURSOR = 197; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,6 +1,5 @@
 programa
 {
-	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
@@ -8,12 +7,12 @@ programa
 		//expressa em anos, meses e dias.
 		
 		inteiro ano = 365,anos,  mes= 30, meses, dia, dias
-		escreva("quantos dias vecê tem? ")
+		escreva("quantos dias você viveu? ")
 		leia(dias)
 		
 		anos = dias / ano
-		meses =  dias%ano / mes
-		dia = dias % mes
+		meses =  dias % ano / mes
+		dia = dias % meses 
 
 		escreva("você tem ", anos,"anos, ", meses, " meses e ", dia, " dias" )
 		
@@ -24,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 286; 
+ * @POSICAO-CURSOR = 27; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
